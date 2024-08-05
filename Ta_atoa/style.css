@@ -1,0 +1,53 @@
+@font-face {
+    font-family: EncodeSans;
+    src: url(./assets/fonts/static/EncodeSans_Condensed-Black.ttf);
+}
+body{
+    font-family:'EncodeSans';
+    max-width: 100%;
+    margin: 5%;
+}
+header p {
+    font-size: 2.8rem;
+    justify-content: center;
+    text-align: center;
+    color: aqua;
+    display: block;
+}
+.subHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+}
+.main{
+    width: 100%;
+}
+.main img{
+    border-radius: 12px;
+    width:193px;
+    height: 110px;
+}
+.main_article{
+    color:#C4160C;
+    font-size: 52px;
+    font-weight: bold;
+}
+.secondary_article{
+    font-size: 18px;
+    color:#303134;
+    margin:8px;
+}
+.main_images{
+    margin:8px;
+    display: flex;
+    align-items: flex-start;
+}
+.topicos span:first-child{
+    color:#C4160C;
+    font-size: 14px;
+}
+.aside_images{
+    width: 100%;
+}
