@@ -41,12 +41,23 @@ header p {
 }
 .main_images{
     margin:8px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
     align-items: flex-start;
 }
-.topicos span:first-child{
+.topicos p, .topicos_sem_img p:first-child{
     color:#C4160C;
     font-size: 14px;
+}
+.topicos p:nth-child(4){
+    color:#303134;
+}
+.topicos span{
+    font-size: 18px;
+}
+.line{
+    border: 1px;
 }
 .aside_images{
     width: 100%;
